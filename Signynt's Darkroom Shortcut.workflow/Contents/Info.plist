@@ -12,7 +12,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Signynt's Film Inversion Script</string>
+				<string>Signynt's Darkroom Shortcut</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
