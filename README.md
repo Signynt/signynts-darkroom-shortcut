@@ -24,7 +24,7 @@ brew install imagemagick
 ```
 You can now close the Terminal.
 
-2. Download the latest [release](https://github.com/Signynt/signynts-darkroom-shortcut/releases) [release](https://github.com/Signynt/signynts-darkroom-shortcut/archive/refs/tags/v1.0.zip) and open the zip file
+2. Download the latest [release](https://github.com/Signynt/signynts-darkroom-shortcut/archive/refs/tags/v1.0.zip) and open the zip file
 3. Install the two Apple Workflows called `Signynt's Darkroom Shortcut (IR).workflow` and `Signynt's Darkroom Shortcut.workflow` by double clicking on them
 4. Install the Affinity Photo macro called `Signynt's Darkroom Shortcut v.1.0.afmacros` by double clicking on it
 5. Install the scripts:
@@ -33,7 +33,7 @@ Open Finder and in the Menu Bar select `Go > Go to Folder` and type  `usr/local/
 
 Drag and drop the three scripts called `autocolor`, `autolevel` and `negfix8` from the `scripts` folder to `bin`.
 
-6. Enjoy! Test out the script on the included `Test.tiff` file
+6. Enjoy! Test out the script on the [Example.tif](https://github.com/Signynt/signynts-darkroom-shortcut/releases/download/v1.0/Example.tif) file
 
 If you have any trouble installing, try checking out my video tutorial to check if you are doing all the steps correctly.
 
