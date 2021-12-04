@@ -1,4 +1,4 @@
-> For a version that is entirely contained in Affinty Photo see the old workflow [Signynt's Darkroom Macro](https://github.com/Signynt/Signynts-Film-Inversion)
+> For a version that is entirely contained in Affinty Photo, see the old workflow [Signynt's Darkroom Macro](https://github.com/Signynt/Signynts-Film-Inversion)
 
 # Signynt's Darkroom Shortcut
 Signynt's Darkroom Shortcut constitutes a workflow for film negative inversion with dust or scratch removal. 
