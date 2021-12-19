@@ -6,6 +6,8 @@ It consists of an Apple Workflow, three shell scripts that utilize Imagemagick, 
 
 Using this shortcut gives you quick access to high quality, neutral and ready to edit RAW images with just one click. It also optionally provides access to quick and high quality dust or scratch removal that is better than the scanning softwares automatic options.
 
+![Github](https://user-images.githubusercontent.com/67801159/146692420-04df4cdc-dab6-494f-b414-cc3563ee55f1.png)
+
 ## Installation
 1. Install [Imagemagick](https://imagemagick.org):
 
