@@ -58,6 +58,8 @@ If you have any trouble installing, try checking out my video tutorial to check 
 
 For more information on the plugin and how it works see my explaination video:
 
+[![Signynt's Darkroom Shortcut Video](https://res.cloudinary.com/marcomontalbano/image/upload/v1639958293/video_to_markdown/images/youtube--Sv1BnDUgRBM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/Sv1BnDUgRBM "Signynt's Darkroom Shortcut Video")
+
 ## Credit
 This workflow uses Imagemagick scripts to work, which are responsible for the main steps of inversion and color correction. Full credit goes to the creators of these scripts.
 - [negfix8](https://sites.google.com/site/negfix/howto) was created by [Jaz99](https://www.flickr.com/people/jaz99), thank you
