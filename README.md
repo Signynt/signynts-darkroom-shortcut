@@ -57,7 +57,7 @@ If you have any trouble installing, try checking out my video tutorial to check 
 ### Use with DSLR Scans
 
 The workflow requires input images to be TIFF files, however most DSLR cameras output other RAW formats, such as NEF, ARW or DNG. 
-In those cases the images must first be converted to TIFF files, which can be done with [this worflow](https://github.com/Signynt/signynts-darkroom-shortcut/releases/download/v1.0/Convert.to.TIFF.workflow.zip) (Unzip it, then double click the `.worflow` file to install). Before using the workflow as described above you must first follow these steps:
+In those cases the images must first be converted to TIFF files, which can be done with [this workflow](https://github.com/Signynt/signynts-darkroom-shortcut/releases/download/v1.0/Convert.to.TIFF.workflow.zip) (Unzip it, then double click the `.worflow` file to install). Before using the workflow as described above you must first follow these steps:
 
 1. Select all you DSLR scans
 2. Right click, hover over `Quick Actions`, then select `Convert to TIFF`
