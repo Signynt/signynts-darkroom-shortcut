@@ -64,6 +64,8 @@ In those cases the images must first be converted to TIFF files, which can be do
 
 After running you will have a duplicate of each image which is a TIFF file, and is labeled as such. You can then select these and run them through the workflow as described above. Please note you can not use the IR version with DSLR scans.
 
+> Important: Make sure you crop the image too remove any of the lighttable that might be visible in the image, otherwise you will run into errors!
+
 ## More Information
 
 For more information on the plugin and how it works see my explaination video:
