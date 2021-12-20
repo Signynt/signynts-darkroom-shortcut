@@ -2,7 +2,7 @@
 
 # Signynt's Darkroom Shortcut
 Signynt's Darkroom Shortcut constitutes a workflow for film negative inversion with dust or scratch removal. 
-It consists of an Apple Workflow, three shell scripts that utilize Imagemagick, and an Affinity Photo macro if you would like to use the dust removal option.
+It consists of an Apple Workflow, three shell scripts that utilize Imagemagick (made by [Fred Weinhaus](http://www.fmwconcepts.com/imagemagick/index.php) and [Jaz99](https://www.flickr.com/people/jaz99)), and an Affinity Photo macro if you would like to use the dust removal option.
 
 Using this shortcut gives you quick access to high quality, neutral and ready to edit RAW images with just one click. It also optionally provides access to quick and high quality dust or scratch removal that is better than the scanning softwares automatic options.
 
