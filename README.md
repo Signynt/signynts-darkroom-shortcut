@@ -35,7 +35,7 @@ You can now close the Terminal.
 
 Open Finder and in the Menu Bar select `Go > Go to Folder` and type  `usr/local/bin`, then hit enter. This will open up the `bin` folder. 
 
-Download, then drag and drop the three scripts called [autolevel](http://www.fmwconcepts.com/imagemagick/autolevel/index.php), [autocolor](http://www.fmwconcepts.com/imagemagick/autocolor/index.php) and [negfix8](https://sites.google.com/site/negfix/howto) to the `bin` folder.
+Download, then drag and drop the three scripts called [autolevel](http://www.fmwconcepts.com/imagemagick/downloadcounter.php?scriptname=autolevel&dirname=autolevel), [autocolor](http://www.fmwconcepts.com/imagemagick/downloadcounter.php?scriptname=autocolor&dirname=autocolor) and [negfix8](https://sites.google.com/site/negfix/downloads/negfix8.3.tgz?attredirects=0&d=1) to the `bin` folder.
 
 6. Enjoy! Test out the script on the [Example.tif](https://github.com/Signynt/signynts-darkroom-shortcut/releases/download/v1.0/Example.tif) file
 
@@ -53,6 +53,16 @@ If you have any trouble installing, try checking out my video tutorial to check 
 6. In the macros folder called `Signynt's Darkroom Shortcut v.1.0` select the macro called `Remove Dust`
 	- You can check to see if you are happy with the infill by comparing the layer called `Dust Removed` with the layer called `Image`. If you want to do the removal in a specific part of the image, erease the `Dust Removed` layer in that spot. If there is more dust that wasn't removed, you can select the `Inpainting Brush Tool` and remove them manually
 7. Edit the image to your liking and export it!
+
+### Use with DSLR Scans
+
+The workflow requires input images to be TIFF files, however most DSLR cameras output other RAW formats, such as NEF, ARW or DNG. 
+In those cases the images must first be converted to TIFF files, which can be done with [this worflow](https://github.com/Signynt/signynts-darkroom-shortcut/releases/download/v1.0/Convert.to.TIFF.workflow.zip) (Unzip it, then double click the `.worflow` file to install). Before using the workflow as described above you must first follow these steps:
+
+1. Select all you DSLR scans
+2. Right click, hover over `Quick Actions`, then select `Convert to TIFF`
+
+After running you will have a duplicate of each image which is a TIFF file, and is labeled as such. You can then select these and run them through the workflow as described above. Please note you can not use the IR version with DSLR scans.
 
 ## More Information
 
