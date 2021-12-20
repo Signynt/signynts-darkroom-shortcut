@@ -35,7 +35,7 @@ You can now close the Terminal.
 
 Open Finder and in the Menu Bar select `Go > Go to Folder` and type  `usr/local/bin`, then hit enter. This will open up the `bin` folder. 
 
-Download, then drag and drop the three scripts called [autolevel](http://www.fmwconcepts.com/imagemagick/autolevel/index.php), [autocolor](http://www.fmwconcepts.com/imagemagick/autocolor/index.php) and [negfix8](https://sites.google.com/site/negfix/howto) to the `bin` folder.
+Download, then drag and drop the three scripts called [autolevel](http://www.fmwconcepts.com/imagemagick/downloadcounter.php?scriptname=autolevel&dirname=autolevel), [autocolor](http://www.fmwconcepts.com/imagemagick/downloadcounter.php?scriptname=autocolor&dirname=autocolor) and [negfix8](https://sites.google.com/site/negfix/downloads/negfix8.3.tgz?attredirects=0&d=1) to the `bin` folder.
 
 6. Enjoy! Test out the script on the [Example.tif](https://github.com/Signynt/signynts-darkroom-shortcut/releases/download/v1.0/Example.tif) file
 
