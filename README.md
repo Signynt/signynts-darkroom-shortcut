@@ -54,6 +54,16 @@ If you have any trouble installing, try checking out my video tutorial to check 
 	- You can check to see if you are happy with the infill by comparing the layer called `Dust Removed` with the layer called `Image`. If you want to do the removal in a specific part of the image, erease the `Dust Removed` layer in that spot. If there is more dust that wasn't removed, you can select the `Inpainting Brush Tool` and remove them manually
 7. Edit the image to your liking and export it!
 
+### Use with DSLR Scans
+
+The workflow requires input images to be TIFF files, however most DSLR cameras output other RAW formats, such as NEF, ARW or DNG. 
+In those cases the images must first be converted to TIFF files, which can be done with [this worflow](https://github.com/Signynt/signynts-darkroom-shortcut/releases/download/v1.0/Convert.to.TIFF.workflow.zip) (Unzip it, then double click the `.worflow` file to install). Before using the workflow as described above you must first follow these steps:
+
+1. Select all you DSLR scans
+2. Right click, hover over `Quick Actions`, then select `Convert to TIFF`
+
+After running you will have a duplicate of each image which is a TIFF file, and is labeled as such. You can then select these and run them through the workflow as described above. Please note you can not use the IR version with DSLR scans.
+
 ## More Information
 
 For more information on the plugin and how it works see my explaination video:
