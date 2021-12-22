@@ -35,7 +35,7 @@ You can now close the Terminal.
 
 Open Finder and in the Menu Bar select `Go > Go to Folder` and type  `usr/local/bin`, then hit enter. This will open up the `bin` folder. 
 
-Download, then drag and drop the three scripts called [autolevel](http://www.fmwconcepts.com/imagemagick/downloadcounter.php?scriptname=autolevel&dirname=autolevel), [autocolor](http://www.fmwconcepts.com/imagemagick/downloadcounter.php?scriptname=autocolor&dirname=autocolor) and [negfix8](https://sites.google.com/site/negfix/downloads/negfix8.3.tgz?attredirects=0&d=1) to the `bin` folder.
+Drag and drop the three scripts called `autocolor`, `autolevel` and `negfix8` from the `scripts` folder to `bin`.
 
 6. Enjoy! Test out the script on the [Example.tif](https://github.com/Signynt/signynts-darkroom-shortcut/releases/download/v1.0/Example.tif) file
 
@@ -57,7 +57,9 @@ If you have any trouble installing, try checking out my video tutorial to check 
 ### Use with DSLR Scans
 
 The workflow requires input images to be TIFF files, however most DSLR cameras output other RAW formats, such as NEF, ARW or DNG. 
-In those cases the images must first be converted to TIFF files, which can be done with [this workflow](https://github.com/Signynt/signynts-darkroom-shortcut/releases/download/v1.0/Convert.to.TIFF.workflow.zip) (Unzip it, then double click the `.worflow` file to install). Before using the workflow as described above you must first follow these steps:
+In those cases the images must first be converted to TIFF files, which can be done with the workflow which you will find in the `DSLR Scanning` folder (double click `Convert to TIFF.worflow` to install it). 
+
+Before using the workflow as described above you must first follow these steps:
 
 1. Select all you DSLR scans
 2. Right click, hover over `Quick Actions`, then select `Convert to TIFF`
@@ -76,3 +78,18 @@ For more information on the plugin and how it works see my explaination video:
 This workflow uses Imagemagick scripts to work, which are responsible for the main steps of inversion and color correction. Full credit goes to the creators of these scripts.
 - [negfix8](https://sites.google.com/site/negfix/howto) was created by [Jaz99](https://www.flickr.com/people/jaz99), thank you
 - [autolevel](http://www.fmwconcepts.com/imagemagick/autolevel/index.php) and [autocolor](http://www.fmwconcepts.com/imagemagick/autocolor/index.php) were created by Fred Weinhaus, thank you 
+
+### Licensing
+
+Please note the licensing from [Fred Weinhaus](http://www.fmwconcepts.com/imagemagick/index.php), which apply to the [autolevel](http://www.fmwconcepts.com/imagemagick/autolevel/index.php) and [autocolor](http://www.fmwconcepts.com/imagemagick/autocolor/index.php) scripts:
+
+> Licensing:
+> Copyright © Fred Weinhaus
+>
+> My scripts are available free of charge for non-commercial (non-profit) use, ONLY.
+> 
+> For use of my scripts in commercial (for-profit) environments or non-free applications, please contact me (Fred Weinhaus) for licensing arrangements. My email address is fmw at alink dot net.
+> 
+> If you: 1) redistribute, 2) incorporate any of these scripts into other free applications or 3) reprogram them in another scripting language, then you must contact me for permission, especially if the result might be used in a commercial or for-profit environment.
+>
+> Usage, whether stated or not in the script, is restricted to the above licensing arrangements. It is also subject, in a subordinate manner, to the ImageMagick license, which can be found at: http://www.imagemagick.org/script/license.php
