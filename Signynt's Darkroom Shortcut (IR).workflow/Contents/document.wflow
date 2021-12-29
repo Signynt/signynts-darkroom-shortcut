@@ -59,7 +59,8 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>export PATH="/usr/local/bin:$PATH"
+					<string>source ~/.zshrc
+export PATH="/usr/local/bin:$PATH"
 
 for f in "$@"
 do
@@ -193,7 +194,7 @@ done
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>416.000000:305.000000</string>
+				<string>1051.250000:305.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
