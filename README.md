@@ -28,7 +28,7 @@ brew install imagemagick
 ```
 You can now close the Terminal.
 
-2. Download the latest [release](https://github.com/Signynt/signynts-darkroom-shortcut/archive/refs/tags/v1.1.zip) and open the zip file
+2. Download the latest [release](https://github.com/Signynt/signynts-darkroom-shortcut/archive/refs/tags/v1.2.zip) and open the zip file
 3. Install the two Apple Workflows called `Signynt's Darkroom Shortcut (IR).workflow` and `Signynt's Darkroom Shortcut.workflow` by double clicking on them
 4. Install the Affinity Photo macro called `Signynt's Darkroom Shortcut v.1.0.afmacros` by double clicking on it
 5. Install the scripts:
