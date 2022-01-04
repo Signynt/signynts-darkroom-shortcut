@@ -68,11 +68,9 @@ do
 	magick $f -type Grayscale "${f%.tif}-greyscale.tif"
 	magick "${f%.tif}-greyscale.tif" -negate "${f%.tif}-negated.tif"
 	magick "${f%.tif}-negated.tif" -auto-level "${f%.tif}-Inverted.tif"
+	rm "${f%.tif}-greyscale.tif"
 	rm "${f%.tif}-negated.tif"
-done
-
-
-</string>
+done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -182,12 +180,10 @@ done
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>416.250000:542.000000</string>
+				<string>416.250000:478.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
