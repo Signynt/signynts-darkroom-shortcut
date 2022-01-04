@@ -28,8 +28,8 @@ brew install imagemagick
 ```
 You can now close the Terminal.
 
-2. Download the latest [release](https://github.com/Signynt/signynts-darkroom-shortcut/archive/refs/tags/v1.2.zip) and open the zip file
-3. Install the two Apple Workflows called `Signynt's Darkroom Shortcut (IR).workflow` and `Signynt's Darkroom Shortcut.workflow` by double clicking on them
+2. Download the latest [release](https://github.com/Signynt/signynts-darkroom-shortcut/archive/refs/tags/v1.3.zip) and open the zip file
+3. Install the three Apple Workflows called `Signynt's Darkroom Shortcut (IR).workflow`, `Signynt's Darkroom Shortcut (B&W).workflow` and `Signynt's Darkroom Shortcut.workflow` by double clicking on them
 4. Install the Affinity Photo macro called `Signynt's Darkroom Shortcut v.1.0.afmacros` by double clicking on it
 5. Install the scripts:
 
@@ -46,6 +46,7 @@ If you have any trouble installing, try checking out my video tutorial to check 
 	- In Silverfast for example select `64 Bit HDRi RAW` as the scan option
 2. Right click on the output file, hover over `Quick Actions`, then select one of the Shorcuts
 	- If you used the infrared scan option and would like to remove any dust or scratches select `Signynt's Darkroom Shortcut (IR)`, if you didn't do an infrared scan or don't want the dust or scratches to be removed select `Signynt's Darkroom Shortcut`
+	- If you want to convert black and white scans, select `Signynt's Darkroom Shortcut (B&W)`
 	- If you would like to process multiple files at once, simply select all the files you would like the invert, then right click
 3. Wait for the shortcut to finish loading. While it is running you will see a cog in the Menu Bar spinning
 4. Each processed image should now have a corresponding image labeled `-Inverted` at the end of the filename, and you're done! If you selected the IR option continue to the next step.
