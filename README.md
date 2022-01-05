@@ -41,6 +41,12 @@ Drag and drop the three scripts called `autocolor`, `autolevel` and `negfix8` fr
 
 If you have any trouble installing, try checking out my video tutorial to check if you are doing all the steps correctly.
 
+> Important: If you get an error while trying to use the shortcut, one of the most common reasons this can be caused is a messed up `$PATH`. To fix this, open the Terminal and run this command: 
+>```
+>echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
+>```
+> Close the Terminal and try the shortcut again, in most cases it will work now.
+
 ## How To Use
 1. Scan a film negative as a RAW TIFF file, optionally select the infrared scan option
 	- In Silverfast for example select `64 Bit HDRi RAW` as the scan option
