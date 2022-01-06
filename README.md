@@ -9,6 +9,8 @@ Using this shortcut gives you quick access to high quality, neutral and ready to
 ![Github](https://user-images.githubusercontent.com/67801159/146692420-04df4cdc-dab6-494f-b414-cc3563ee55f1.png)
 
 ## Installation
+Please read the instructions carefully, and use the YouTube video if you have trouble understanging any of the steps. If you still are having trouble, open an [Issue](https://github.com/Signynt/signynts-darkroom-shortcut/issues/new/choose), or DM me on [Reddit](https://www.reddit.com/user/Signynt).
+
 1. Install [Imagemagick](https://imagemagick.org):
 
 The easiest way to do this is using [Brew](https://brew.sh).
@@ -34,6 +36,7 @@ You can now close the Terminal.
 	- For color negative scans that were scanned without IR, install `Signynt's Darkroom Shortcut.workflow`
 	- For color negative scans that were scanned with IR, find the folder that corresponds to your software, open it, and install the workflow and the macro inside
 		- _Example: If you scan with Silverfast, and use Affinity Photo, open the folder called `Silverfast + Affinity Photo`, and double click on both `Signynt's Darkroom Shortcut (IR) (Silverfast-Affinity).workflow` and `Signynt's Darkroom Shortcut v.1.0.afmacros`_
+	- If you are DSLR scanning, open the folder called `DSLR Scanning` and install `Convert to TIFF.workflow`
 4. Install the scripts:
 
 Open Finder and in the Menu Bar select `Go > Go to Folder` and type  `usr/local/bin`, then hit enter. This will open up the `bin` folder. 
@@ -53,14 +56,14 @@ If you have any trouble installing, try checking out my video tutorial to check 
 ## How To Use
 1. Scan a film negative as a RAW TIFF file, optionally select the infrared scan option
 	- In Silverfast for example select `64 Bit HDRi RAW` as the scan option
-2. Right click on the output file, hover over `Quick Actions`, then select one of the Shorcuts
-	- If you used the infrared scan option and would like to remove any dust or scratches select `Signynt's Darkroom Shortcut (IR)`, if you didn't do an infrared scan or don't want the dust or scratches to be removed select `Signynt's Darkroom Shortcut`
-	- If you want to convert black and white scans, select `Signynt's Darkroom Shortcut (B&W)`
+2. Right click on the output file, hover over `Quick Actions`, then select your corresponding shortcut 
 	- If you would like to process multiple files at once, simply select all the files you would like the invert, then right click
 3. Wait for the shortcut to finish loading. While it is running you will see a cog in the Menu Bar spinning
 4. Each processed image should now have a corresponding image labeled `-Inverted` at the end of the filename, and you're done! If you selected the IR option continue to the next step.
-5. The parts of the image recognized as dust or scratches will appear as if they have been ereased. To fix these parts of the image open it in Affinity Photo
-6. In the macros folder called `Signynt's Darkroom Shortcut v.1.0` select the macro called `Remove Dust`
+5. The parts of the image recognized as dust or scratches will appear as if they have been ereased. To fix these parts of the image open it in Affinity Photo or Photoshop
+6. **For Affinity Photo**: In the macros folder called `Signynt's Darkroom Shortcut v.1.0` select the macro called `Remove Dust`
+	- You can check to see if you are happy with the infill by comparing the layer called `Dust Removed` with the layer called `Image`. If you want to do the removal in a specific part of the image, erease the `Dust Removed` layer in that spot. If there is more dust that wasn't removed, you can select the `Inpainting Brush Tool` and remove them manually
+6. **For Photoshop**: In the macros folder called `Signynt's Darkroom Shortcut v.1.0` select the macro called `Remove Dust`
 	- You can check to see if you are happy with the infill by comparing the layer called `Dust Removed` with the layer called `Image`. If you want to do the removal in a specific part of the image, erease the `Dust Removed` layer in that spot. If there is more dust that wasn't removed, you can select the `Inpainting Brush Tool` and remove them manually
 7. Edit the image to your liking and export it!
 
