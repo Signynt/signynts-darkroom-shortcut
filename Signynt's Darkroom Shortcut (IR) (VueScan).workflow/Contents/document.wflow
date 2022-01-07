@@ -68,16 +68,19 @@ do
 	negfix8 -cs $f "${f%.tif}-negfix8.tif"
 	autolevel "${f%.tif}-negfix8.tif" "${f%.tif}-autolevel.tif"
 	autocolor "${f%.tif}-autolevel.tif" "${f%.tif}-InvertedSimple.tif"
-	magick -quiet $f -delete 0 -normalize "${f%.tif}-ir.tif"
+	magick -quiet $f -channel 4 -separate -normalize "${f%.tif}-ir.tif"
 	magick -quiet $f -channel 0 -separate -normalize "${f%.tif}-red.tif"
 	magick -quiet "${f%.tif}-ir.tif" "${f%.tif}-red.tif" -fx 'u/v' -threshold 1% "${f%.tif}-Dust.tif"
 	magick "${f%.tif}-InvertedSimple.tif" "${f%.tif}-Dust.tif" -channel-fx '|gray=&gt;alpha' "${f%.tif}-Inverted.tif"
+	mogrify -format dng "${f%.tif}-Inverted.tif"
 	rm "${f%.tif}-negfix8.tif"
 	rm "${f%.tif}-autolevel.tif"
 	rm "${f%.tif}-ir.tif"
 	rm "${f%.tif}-red.tif"
 	rm "${f%.tif}-InvertedSimple.tif"
 	rm "${f%.tif}-Dust.tif"
+	rm "${f%.tif}-Inverted.tif"
+	mv "${f%.tif}-Inverted.dng" "${f%.tif}-Inverted.tif"
 done
 
 
@@ -194,7 +197,7 @@ done
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>1051.250000:305.000000</string>
+				<string>416.250000:587.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
