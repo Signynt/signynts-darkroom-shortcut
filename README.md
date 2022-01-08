@@ -32,7 +32,7 @@ brew install imagemagick
 ```
 You can now close the Terminal.
 
-2. Download the latest [release](https://github.com/Signynt/signynts-darkroom-shortcut/archive/refs/tags/v1.5.zip) and open the zip file
+2. Download the latest [release](https://github.com/Signynt/signynts-darkroom-shortcut/archive/refs/tags/v1.4.zip) and open the zip file
 3. Install the Apple Workflows that correspond to what kind of scans you are working with, and the software you use for scanning:
 	- For black & white scans, install `Signynt's Darkroom Shortcut (B&W).workflow`
 	- For color negative scans that were scanned without IR, install `Signynt's Darkroom Shortcut.workflow`
