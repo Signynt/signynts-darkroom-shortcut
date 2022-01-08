@@ -40,7 +40,11 @@ You can now close the Terminal.
 	- If you are DSLR scanning, open the folder called `DSLR Scanning` and install `Convert to TIFF.workflow`
 4. Open the folder called `Macros` and install the dust removal macro for your image editing software
 	- If you are using Affinity Photo, install `Signynt's Darkroom Shortcut.afmacros` by double clicking it
-	- If you are using Photoshop, install `Signynt's Darkroom Shortcut.atn` by double clicking it
+	- If you are using Photoshop, install `Signynt's Darkroom Shortcut.atn`
+		1. Open a new Finder window and press `Cmd` + `Shift` + `G`
+		2. Type in `/Library/Application Support/Adobe/Adobe Photoshop 2022/Presets/Actions` and hit enter to open your Photoshop Actions folder
+		3. Move `Signynt's Darkroom Shortcut.atn` into the `Actions` folder
+		4. Restart Photoshop
 6. Install the scripts:
 
 Open Finder and in the Menu Bar select `Go > Go to Folder` and type  `usr/local/bin`, then hit enter. This will open up the `bin` folder. 
@@ -66,9 +70,12 @@ If you have any trouble installing, try checking out my video tutorial to check 
 4. Each processed image should now have a corresponding image labeled `-Inverted` at the end of the filename, and you're done! If you selected the IR option continue to the next step.
 5. The parts of the image recognized as dust or scratches will appear as if they have been ereased. To fix these parts of the image open it in Affinity Photo or Photoshop
 6. **For Affinity Photo**: In the macros folder called `Signynt's Darkroom Shortcut` select the macro called `Remove Dust`
-	- You can check to see if you are happy with the infill by comparing the layer called `Dust Removed` with the layer called `Image`. If you want to do the removal in a specific part of the image, erease the `Dust Removed` layer in that spot. If there is more dust that wasn't removed, you can select the `Inpainting Brush Tool` and remove them manually
-6. **For Photoshop**: In the macros folder called `Signynt's Darkroom Shortcut` select the macro called `Remove Dust`
-	- You can check to see if you are happy with the infill by comparing the layer called `Dust Removed` with the layer called `Image`. If you want to do the removal in a specific part of the image, erease the `Dust Removed` layer in that spot. If there is more dust that wasn't removed, you can select the `Inpainting Brush Tool` and remove them manually
+	- You can check to see if you are happy with the infill by comparing the layer called `Dust Removed` with the layer called `Image`. 
+	- To remove dust that was missed: Use `Inpainting Brush Tool`
+	- To undo the dust removal in certain areas: Select the `Dust Removed` layer & use the `Erease Brush Tool` to erease those areas
+6. **For Photoshop**: In the actions folder called `Signynt's Darkroom Shortcut` select the action called `Remove Dust` and press the play button
+	- To remove dust that was missed: Use `Spot Healing Tool`
+	- To undo the dust removal in certain areas: Use a `Layer Mask` & a brush set to black to paint over the areas
 7. Edit the image to your liking and export it!
 
 ### Use with DSLR Scans
@@ -95,6 +102,7 @@ For more information on the plugin and how it works see my explaination video:
 This workflow uses Imagemagick scripts to work, which are responsible for the main steps of inversion and color correction. Full credit goes to the creators of these scripts.
 - [negfix8](https://sites.google.com/site/negfix/howto) was created by [Jaz99](https://www.flickr.com/people/jaz99), thank you
 - [autolevel](http://www.fmwconcepts.com/imagemagick/autolevel/index.php) and [autocolor](http://www.fmwconcepts.com/imagemagick/autocolor/index.php) were created by Fred Weinhaus, thank you 
+- The Photoshop action was contributed by @gjauxfaux, thank you
 
 ### Licensing
 
