@@ -80,6 +80,8 @@ If you have any trouble installing, try checking out my video tutorial to check 
 	- To undo the dust removal in certain areas: Use a `Layer Mask` & a brush set to black to paint over the areas
 7. Edit the image to your liking and export it!
 
+> Important: For the dust & scratch removal to work, no part of the film/scanner holder may be visible. For details, and instructions on how to properly crop this out, see [these instructions](https://github.com/Signynt/signynts-darkroom-shortcut/blob/f190a67ecfc8ff810f80ceacfb01857256e762ee/CROPPING.md).
+
 ### Use with DSLR Scans
 
 The workflow requires input images to be TIFF files, however most DSLR cameras output other RAW formats, such as NEF, ARW or DNG. 
