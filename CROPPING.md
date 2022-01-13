@@ -1,5 +1,9 @@
+If a film/scanner holder is visible in the scan, it will mess up the dust & scratch removal. An example of film holder being visible in a scan can be seen below.
+The best way to prevent this is to just scan the negatives without a scan holder being visible (by cropping during the scanning process in your scanning software), but in some cases you might have a bunch of scans already done, and rescanning would be a hassle.
+
+![ScanHolder](https://user-images.githubusercontent.com/67801159/149269398-69027f9b-a97b-491a-a138-9f81a8769db5.jpg)
+
 Unfortunately both Preview and Affinity Photo delete any extra TIFF layers an image has when trying to crop it. This is a problem if you have infrared scans, and want to remove dust or scratches.
-The best way to do things it just to scan the images without a scan holder being visible, but in some cases you might have a bunch of scans already done, and rescanning would be a hassle.
 
 Currently the only way I've found to crop the TIFFs is by using Imagemagick. Here you will find instructions on how to do this.
 
