@@ -22,14 +22,20 @@ If you don't yet have [Brew](https://brew.sh) installed, paste this command in t
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Once [Brew](https://brew.sh) is installed run these two commands in the Terminal to install [Imagemagick](https://imagemagick.org) with libtiff support:
-```
-brew install libtiff
-```
+Once [Brew](https://brew.sh) is installed run these two commands in the Terminal to install [Imagemagick](https://imagemagick.org):
 	
 ```
 brew install imagemagick
 ```
+
+Newer versions of imagemagick have unfortunately broken `negfix8`, so once you've installed it you'll need to switch to a previous version by running these 3 commands:
+
+1. `brew install imagemagick@6`
+
+2. `brew link --overwrite imagemagick@6`
+
+3. `echo 'export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"' >> ~/.zshrc`
+
 You can now close the Terminal.
 
 2. Download the latest [release](https://github.com/Signynt/signynts-darkroom-shortcut/archive/refs/tags/v1.6.zip) and open the zip file
