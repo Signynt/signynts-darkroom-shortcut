@@ -30,11 +30,11 @@ brew install imagemagick
 
 Newer versions of imagemagick have unfortunately broken `negfix8`, so once you've installed it you'll need to switch to a previous version by running these 3 commands:
 
-1. `brew install imagemagick@6`
+- `brew install imagemagick@6`
 
-2. `brew link --overwrite imagemagick@6`
+- `brew link --overwrite imagemagick@6`
 
-3. `echo 'export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"' >> ~/.zshrc`
+- `echo 'export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"' >> ~/.zshrc`
 
 You can now close the Terminal.
 
