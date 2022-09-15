@@ -1,3 +1,6 @@
+> **Important!**
+> There is a newer version avaible that is fully implemented in Python, which makes it easier to install & platform independent. Find it under [Signynt's Darkroom Sript](https://github.com/Signynt/signynts-darkroom-script)
+
 > For a version that is entirely contained in Affinty Photo, see the old workflow [Signynt's Darkroom Macro](https://github.com/Signynt/signynts-darkroom-macro)
 
 # Signynt's Darkroom Shortcut
